@@ -26,7 +26,7 @@ spec:
                 - value
       containers:
       - name: app-name
-        image: statemood/mysql:5.7.21
+        image: demo-image:mytag
         imagePullPolicy: Always
         ports:
         - name: http
