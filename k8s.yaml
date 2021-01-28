@@ -56,8 +56,8 @@ spec:
             cpu: 300m
             memory: 1Gi
         env:
-        - name: ENVIRONMENT
-          value: env-value
+        - name: CREATED_BY
+          value: jenkins
         ports:
         - containerPort: 8080
           name: ui
